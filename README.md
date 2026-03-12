@@ -1,6 +1,6 @@
-# multimedial
+# Multimedial
 ## Taller Multimedial
-Semana 1, Ejercicio 1
+Semana 1 Ejercicio 1
 
 ```
 <!DOCTYPE html>
