@@ -1,4 +1,4 @@
-# MULTIMEDIAL
+# MIXMEDIA
 ## Taller Multimedial
 Semana 1 Ejercicio 1
 
