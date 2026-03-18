@@ -24,7 +24,7 @@ Semana 1 Ejercicio 1
 body{
 /* "body" se refiere a todo el contenido visible de la página */
 
-  background-color: #D8DB9A;
+  background-color: white;
   /* Define que el fondo de toda la página sea blanco */
 
   color: black;
