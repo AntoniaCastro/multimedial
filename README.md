@@ -15,7 +15,7 @@ Semana 1 Ejercicio 1
 <meta charset="UTF-8">
 <!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
 
-<title>MIXMEDIA</title>
+<title>Multimedial</title>
 <!-- Título de la página que aparece en la pestaña del navegador -->
 
 <style>
@@ -63,7 +63,7 @@ body{
 <body>
 <!-- Inicio del contenido visible de la página -->
 
-MULTIMEDIAL
+MIXMEDIA
 <!-- Texto que aparece en el centro de la pantalla -->
 
 </body>
