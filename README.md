@@ -15,7 +15,7 @@ Semana 1 Ejercicio 1
 <meta charset="UTF-8">
 <!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
 
-<title>Multimedial</title>
+<title>MIXMEDIA</title>
 <!-- Título de la página que aparece en la pestaña del navegador -->
 
 <style>
@@ -24,7 +24,7 @@ Semana 1 Ejercicio 1
 body{
 /* "body" se refiere a todo el contenido visible de la página */
 
-  background-color: white;
+  background-color: #FFF1B5;
   /* Define que el fondo de toda la página sea blanco */
 
   color: black;
