@@ -1,68 +1,88 @@
 <!DOCTYPE html>
-<!-- Indica al navegador que este documento usa HTML5 -->
-
-<html>
-<!-- Inicio del documento HTML -->
-
+<html lang="es">
 <head>
-<!-- Sección donde van metadatos, título y estilos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A|Castro</title>
+    <style>
+        /* Configuración del cuerpo */
+        body {
+            background-color: #fff8E1; 
+            margin: 0;
+            display: flex;
+            justify-content: center; 
+            align-items: center;     
+            min-height: 100vh;       
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden; /* Evita scrolls innecesarios por el fondo */
+        }
 
-<meta charset="UTF-8">
-<!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
+        /* Fondo con opacidad */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0; 
+            left: 0; /* Antes estaba vacío */
+            width: 100%; 
+            height: 100%;
+            /* Tip: Intenta que el nombre de tu imagen no tenga espacios en el futuro */
+            background-image: url('img/RECTIFY_IMG_20250820_190635 (1).jpg'); 
+            background-size: cover;
+            background-position: center;
+            opacity: 0.6; /* Bajé un poco más la opacidad para que se lea mejor el texto */
+            z-index: -1;
+        }
 
-<title>Multimedial</title>
-<!-- Título de la página que aparece en la pestaña del navegador -->
+        /* Contenedor principal - CORREGIDO EL NOMBRE A .contenedor */
+        .contenedor {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.85); /* Fondo blanco semi-transparente */
+            padding: 50px 80px;
+            border-radius: 0px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+            border: 1px solid rgba(209, 199, 172, 0.5);
+            max-width: 450px;
+            width: 90%;
+            position: relative; /* Asegura que esté sobre el pseudo-elemento ::before */
+        }
 
-<style>
-/* Aquí comienza la sección de estilos CSS que define la apariencia visual */
+        /* Estilo del título */
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+            margin-top: 0;
+            color: #222;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
 
-body{
-/* "body" se refiere a todo el contenido visible de la página */
+        /* Estilo de los links */
+        nav {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
 
-  background-color: #FFF1B5;
-  /* Define que el fondo de toda la página sea blanco */
+        nav a {
+            text-decoration: none;
+            color: #444;
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
 
-  color: black;
-  /* Define que el color del texto sea negro */
-
-  margin: 0;
-  /* Elimina los márgenes que los navegadores agregan por defecto */
-
-  height: 100vh;
-  /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
-
-  display: flex;
-  /* Activa el sistema Flexbox para organizar y centrar elementos */
-
-  justify-content: center;
-  /* Centra el contenido horizontalmente */
-
-  align-items: center;
-  /* Centra el contenido verticalmente */
-
-  font-family: Times New Roman, sans-serif;
-  /* Define la tipografía del texto */
-
-  font-size: 60px;
-  /* Define el tamaño grande del texto */
-
-}
-/* Fin de las reglas de estilo del body */
-
-</style>
-<!-- Fin de la sección de estilos -->
-
+    
+    </style>
 </head>
-<!-- Fin de la sección head -->
-
 <body>
-<!-- Inicio del contenido visible de la página -->
 
-MIXMEDIA
-<!-- Texto que aparece en el centro de la pantalla -->
+    <div class="contenedor">
+        <h1>Antonia Castro</h1>
+
+        <nav>
+            <a href="obras.html">Obras</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
 
 </body>
-<!-- Fin del contenido visible -->
-
 </html>
-<!-- Fin del documento HTML -->
