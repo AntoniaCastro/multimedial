@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
-<title>Multimedial</title>
-
+    <meta charset="UTF-8">
+    <title>Obras</title>
 
     <style>
         /* Estilo general del cuerpo */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             background-color: #fff2cd;
             margin: 0;
         }
@@ -28,37 +26,54 @@
             border-radius: 10px;
         }
 
-        /* Sección o bloque */
-        .bloque h2{
-           margin-top: 10px;
+        /* Imagen */
+        .bloque img {
+            width: 30%;
+            height: auto;
         }
 
-</style>
-<!-- Fin de la sección de estilos -->
+        /* Encabezado */
+        .bloque h2 {
+            margin-top: 20px;
+        }
+
+        /* Texto */
+        .bloque p {
+            line-height: 1.5;
+        }
+
+        .boton { /* Define una clase llamada "boton" */
+         background-color: rgb(104, 8, 24); /* Color de fondo del botón */
+         color: white; /* Color del texto */
+         padding: 15px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
+         width: 150px; /* Ancho fijo del botón */
+         text-align: center; /* Centra el texto horizontalmente */
+         transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
+        }
+
+        .boton:hover { /* Se activa cuando el mouse pasa sobre el elemento */
+         background-color: rgb(170, 85, 85); /* Cambia el color de fondo al pasar el mouse */
+        }
 
 
-
+        
+    </style>
 </head>
-<!-- Fin de la sección head -->
 
 <body>
-<!-- Inicio del contenido visible de la página -->
 
-<!-- Contenedor principal -->
-    <div class="contenedor">
-
-        <!-- BLOQUE 1 -->
+<!-- BLOQUE 4 -->
         <div class="bloque">
-            <h2>Antonia Castro</h2>
+            <h2>Contacto</h2>
+            <img src="img/mmmgatete.jpg" alt="Imagen de contacto">
+            <h3>acastroc2@uft.edu</h3>
+            <h4>@missupyon</h4>
+        </div>
 
-<a href="obras.html">Obras</a><br>
+</div>
 
-<a href="contacto.html">Contacto</a>
+        <a href="index.html" class="boton">Volver</a>
 
-<img src="img/fondo.jpg" alt="fondo" width="300" align="right"> 
-
+        </div>
 </body>
-<!-- Fin del contenido visible -->
-
 </html>
-<!-- Fin del documento HTML -->

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Alucinación de consuelo</title>
+</head>
+
+<body>
+
+<h1>Alucinación de consuelo</h1>
+
+<img src="img/alucinaciondeconsuelo.jpg" alt="Alucinacióndeconsuelo" width="300">
+
+<p>Descripción de mi trabajo artístico</p>
+
+<a href="obras.html">Volver</a>
+<!-- <a href="index.html" target="-blank">Volver a la página principal</a> -->
+
+<!-- <a href="https://www.wikipedia.org" target="_blank">Ir a Wikipedia</a> -->
+
+</body>
+</html>
