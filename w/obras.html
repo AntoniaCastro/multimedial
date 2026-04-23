@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Obras</title>
+
+    <style>
+        /* Estilo general del cuerpo */
+        body {
+            background-color: bisque;
+            font-family: Arial, sans-serif;
+            margin: 0;
+
+        }
+.abajo {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: brown;
+    padding: 10px;
+    width: 100%;
+}
+
+
+        /* Sección o bloque */
+        .bloque {
+            background-color: white;
+            margin: 15px 0;
+            width: 400px;
+            padding: 25px;
+            text-align: center;
+            box-sizing: border-box;
+            transition: 0.5s;
+            overflow: hidden;
+        }
+
+
+         /* Encabezado */
+        .bloque h2 {
+            margin-top: 20px;
+        }
+
+        /* Imagen */
+        .bloque img {
+            width: 95%;
+            height: auto;
+            transition: transform 0.5s ease;
+        }
+
+        .bloque:hover img {
+        transform: scale(1.1);
+        }
+
+        .bloque:hover .overlay {
+        opacity: 1;
+        }
+
+
+        /* Texto */
+        .bloque p {
+            line-height: 1.5;
+        }
+
+
+
+        .boton { /* Define una clase llamada "boton" */
+         background-color: rgb(104, 8, 24); /* Color de fondo del botón */
+         color: white; /* Color del texto */
+         padding: 25px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
+         width: 150px; /* Ancho fijo del botón */
+         text-align: center; /* Centra el texto horizontalmente */
+         transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
+        }
+
+        .boton:hover { /* Se activa cuando el mouse pasa sobre el elemento */
+         background-color: rgb(170, 85, 85); /* Cambia el color de fondo al pasar el mouse */
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Contenedor principal -->
+
+<a href="index.html" class="boton">Volver</a>
+
+<h1 style="text-align:center;">Obras</h1>
+
+<div class="abajo">
+<div class="bloque">
+    <img src="img/alucinaciondeconsuelo.jpg" alt="Alucinación de consuelo">
+    <h3>2025</h3>
+    <p>Impresiones sobre papel</p>
+</div>
+    <div class="bloque">
+    <img src="img/amalgama.jpg" alt="Amalgama">
+    <h3>2025</h3>
+    <p>Tecnica mixta </p>
+</div>
+</div>
+<div class="abajo">
+    <div class="bloque">
+    <img src="img/ornamentacionquiensabe.jpg" alt="ornamentacionquiensabe">
+    <h4>2026</h4>
+    <p>Impresiones sobre papel </p>
+</div>
+   <div class="bloque">
+<img src="img/serigrafia.jpg" alt="seri">
+    <h4>2025</h4>
+    <p> Serigrafia sobre papel </p>
+ </div>
+ </div>
+
+
+
+</body>
+</html>
