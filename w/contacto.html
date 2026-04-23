@@ -1,79 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Obras</title>
+    <title>Contacto</title>
 
     <style>
         /* Estilo general del cuerpo */
         body {
+            background-color: brown; 
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-color: #fff2cd;
             margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
         }
 
-        /* Contenedor principal */
-        .contenedor {
-            width: 60%;
-            margin: auto;
-        }
-
-        /* Sección o bloque */
-        .bloque {
+        /* Bloque central de contacto */
+        .bloque-contacto {
             background-color: white;
-            margin: 20px 0;
             padding: 50px;
-            border-radius: 10px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+            width: 100%;
+            max-width: 400px; /* Tamaño similar al index */
+            transition: transform 0.3s ease;
         }
 
-        /* Imagen */
-        .bloque img {
-            width: 30%;
-            height: auto;
+        .bloque-contacto:hover {
+            transform: scale(1.02);
         }
 
-        /* Encabezado */
-        .bloque h2 {
-            margin-top: 20px;
+        /* Imagen de contacto circular */
+        .bloque-contacto img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%; /* Hace la imagen circular */
+            margin-bottom: 20px;
+            border: 5px solid #f0f0f0;
         }
 
-        /* Texto */
-        .bloque p {
-            line-height: 1.5;
+        .bloque-contacto h2 {
+            margin: 10px 0;
+            color: #333;
+            font-size: 28px;
         }
 
-        .boton { /* Define una clase llamada "boton" */
-         background-color: rgb(104, 8, 24); /* Color de fondo del botón */
-         color: white; /* Color del texto */
-         padding: 15px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
-         width: 150px; /* Ancho fijo del botón */
-         text-align: center; /* Centra el texto horizontalmente */
-         transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
+        .bloque-contacto h3 {
+            color: rgb(104, 8, 24);
+            font-size: 18px;
+            margin: 5px 0;
         }
 
-        .boton:hover { /* Se activa cuando el mouse pasa sobre el elemento */
-         background-color: rgb(170, 85, 85); /* Cambia el color de fondo al pasar el mouse */
+        .bloque-contacto h4 {
+            color: #666;
+            font-weight: normal;
+            margin-bottom: 20px;
         }
 
+        /* Botón Volver */
+        .boton {
+            display: inline-block;
+            background-color: rgb(104, 8, 24);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            text-align: center;
+            transition: 0.3s;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
 
+        .boton:hover {
+            background-color: rgb(170, 85, 85);
+        }
         
     </style>
 </head>
 
 <body>
 
-<!-- BLOQUE 4 -->
-        <div class="bloque">
-            <h2>Contacto</h2>
-            <img src="img/mmmgatete.jpg" alt="Imagen de contacto">
-            <h3>acastroc2@uft.edu</h3>
-            <h4>@missupyon</h4>
-        </div>
+    <div class="bloque-contacto">
+        <img src="img/mmmgatete.jpg" alt="Imagen de contacto">
+        <h2>Contacto</h2>
+        <h3>acastroc2@uft.edu</h3>
+        <h4>@missupyon</h4>
+    </div>
 
-</div>
+    <a href="index.html" class="boton">Volver al Inicio</a>
 
-        <a href="index.html" class="boton">Volver</a>
-
-        </div>
 </body>
 </html>

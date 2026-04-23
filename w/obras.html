@@ -1,121 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Obras</title>
-
     <style>
-        /* Estilo general del cuerpo */
         body {
-            background-color: bisque;
+            background-color: brown;
             font-family: Arial, sans-serif;
             margin: 0;
-
+            padding: 20px;
         }
-.abajo {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    background-color: brown;
-    padding: 10px;
-    width: 100%;
-}
 
+        /* Contenedor principal: Grid de 4 columnas */
+        .contenedor-obras {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-        /* Sección o bloque */
+        /* Cada bloque de imagen */
         .bloque {
-            background-color: white;
-            margin: 15px 0;
-            width: 400px;
-            padding: 25px;
-            text-align: center;
-            box-sizing: border-box;
-            transition: 0.5s;
+            position: relative; /* Necesario para posicionar el texto encima */
+            aspect-ratio: 1 / 1; /* Mantiene las imágenes cuadradas y del mismo tamaño */
             overflow: hidden;
+            background-color: #000;
+            border-radius: 0px;
         }
 
-
-         /* Encabezado */
-        .bloque h2 {
-            margin-top: 20px;
-        }
-
-        /* Imagen */
+        /* Imagen que ocupa todo el bloque */
         .bloque img {
-            width: 95%;
-            height: auto;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Recorta la imagen para que llene el cuadrado sin deformarse */
             transition: transform 0.5s ease;
+            display: block;
         }
 
+        /* Capa oscura con el texto (oculta por defecto) */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7); /* Fondo negro semitransparente */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0; /* Invisible */
+            transition: opacity 0.4s ease;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        /* Efectos al pasar el mouse */
         .bloque:hover img {
-        transform: scale(1.1);
+            transform: scale(1.1);
         }
 
         .bloque:hover .overlay {
-        opacity: 1;
+            opacity: 1; /* Muestra el texto */
         }
 
+        .overlay h3 { margin: 0; font-size: 1.2rem; }
+        .overlay p { margin: 5px 0 0; font-size: 0.9rem; }
 
-        /* Texto */
-        .bloque p {
-            line-height: 1.5;
+        /* Botón Volver */
+        .boton {
+            display: inline-block;
+            background-color: rgb(104, 8, 24);
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            margin-bottom: 20px;
+            transition: 0.3s;
         }
 
-
-
-        .boton { /* Define una clase llamada "boton" */
-         background-color: rgb(104, 8, 24); /* Color de fondo del botón */
-         color: white; /* Color del texto */
-         padding: 25px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
-         width: 150px; /* Ancho fijo del botón */
-         text-align: center; /* Centra el texto horizontalmente */
-         transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
+        .boton:hover {
+            background-color: rgb(170, 85, 85);
         }
 
-        .boton:hover { /* Se activa cuando el mouse pasa sobre el elemento */
-         background-color: rgb(170, 85, 85); /* Cambia el color de fondo al pasar el mouse */
-        }
-
-        
+        h1 { color: white; margin-bottom: 30px; }
     </style>
 </head>
-
 <body>
 
+    <a href="index.html" class="boton">Volver</a>
+    <h1 style="text-align:center;">Obras</h1>
 
-    <!-- Contenedor principal -->
+    <div class="contenedor-obras">
+        <div class="bloque">
+            <img src="img/alucinaciondeconsuelo.jpg" alt="Alucinación de consuelo">
+            <div class="overlay">
+                <h3>Alucinación de Consuelo</h3>
+                <p>2025 - Impresiones sobre papel</p>
+            </div>
+        </div>
 
-<a href="index.html" class="boton">Volver</a>
+        <div class="bloque">
+            <img src="img/amalgama.jpg" alt="Amalgama">
+            <div class="overlay">
+                <h3>Amalgama</h3>
+                <p>2025 - Técnica mixta</p>
+            </div>
+        </div>
 
-<h1 style="text-align:center;">Obras</h1>
+        <div class="bloque">
+            <img src="img/ornamentacionquiensabe.jpg" alt="Ornamentación">
+            <div class="overlay">
+                <h3>Ornamentación</h3>
+                <p>2026 - Impresiones sobre papel</p>
+            </div>
+        </div>
 
-<div class="abajo">
-<div class="bloque">
-    <img src="img/alucinaciondeconsuelo.jpg" alt="Alucinación de consuelo">
-    <h3>2025</h3>
-    <p>Impresiones sobre papel</p>
-</div>
-    <div class="bloque">
-    <img src="img/amalgama.jpg" alt="Amalgama">
-    <h3>2025</h3>
-    <p>Tecnica mixta </p>
-</div>
-</div>
-<div class="abajo">
-    <div class="bloque">
-    <img src="img/ornamentacionquiensabe.jpg" alt="ornamentacionquiensabe">
-    <h4>2026</h4>
-    <p>Impresiones sobre papel </p>
-</div>
-   <div class="bloque">
-<img src="img/serigrafia.jpg" alt="seri">
-    <h4>2025</h4>
-    <p> Serigrafia sobre papel </p>
- </div>
- </div>
-
-
+        <div class="bloque">
+            <img src="img/seripoliptico.jpg" alt="Serigrafía">
+            <div class="overlay">
+                <h3>Serigrafía</h3>
+                <p>2025 - Serigrafía sobre papel</p>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
