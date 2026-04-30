@@ -199,6 +199,180 @@ CÓDIGO OBRAS.HTML ANTIGUO
 
 </body>
 </html>
+
+CODIGO INDEX ANTIGUO
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
+<title>Multimedial</title>
+
+
+    <style>
+        /* Estilo general del cuerpo */
+        body {
+            background-image: url(img/fondo.jpg);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex; /* Activa flexbox */
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            height: 100vh; /* Altura total de la pantalla (viewport height) */
+        }
+
+        /* Contenedor principal */
+        .contenedor {
+            width: 20%;
+            margin: auto;
+        }
+
+        /* Sección o bloque */
+        .bloque {
+            background-color: rgba(255, 255, 255, 0.474);
+            margin: 20px 0;
+            padding: 50px;
+            width: 300px;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
+            
+        }
+
+        .bloque:hover{
+        background-color: white;
+        padding: 70px;
+
+        }
+
+
+        /* Sección o bloque */
+        .bloque h2{
+           margin-top: 10px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color:black;
+            font-size: 20px;
+            transition: 0.3s;
+
+        }
+
+        nav a:hover {
+            font-size: 30px;
+        }
+
+</style>
+<!-- Fin de la sección de estilos -->
+
+
+
+</head>
+<!-- Fin de la sección head -->
+
+<body>
+    <div class="contenedor">
+        <div class="bloque">
+            <h1>Antonia Castro</h1>
+<nav>
+<a href="obras.html">Obras</a><br>
+<a href="contacto.html">Contacto</a>
+</nav>
+        </div>
+    </div>
+</body>
+<!-- Fin del contenido visible -->
+
+</html>
+<!-- Fin del documento HTML →
+
+CÓDIGO ANTIGUO CONTACTO
+
+quiero editar esta pagina <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Obras</title>
+
+    <style>
+        /* Estilo general del cuerpo */
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #fff2cd;
+            margin: 0;
+        }
+
+        /* Contenedor principal */
+        .contenedor {
+            width: 60%;
+            margin: auto;
+        }
+
+        /* Sección o bloque */
+        .bloque {
+            background-color: white;
+            margin: 20px 0;
+            padding: 50px;
+            border-radius: 10px;
+        }
+
+        /* Imagen */
+        .bloque img {
+            width: 30%;
+            height: auto;
+        }
+
+        /* Encabezado */
+        .bloque h2 {
+            margin-top: 20px;
+        }
+
+        /* Texto */
+        .bloque p {
+            line-height: 1.5;
+        }
+
+        .boton { /* Define una clase llamada "boton" */
+         background-color: rgb(104, 8, 24); /* Color de fondo del botón */
+         color: white; /* Color del texto */
+         padding: 15px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
+         width: 150px; /* Ancho fijo del botón */
+         text-align: center; /* Centra el texto horizontalmente */
+         transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
+        }
+
+        .boton:hover { /* Se activa cuando el mouse pasa sobre el elemento */
+         background-color: rgb(170, 85, 85); /* Cambia el color de fondo al pasar el mouse */
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+
+<!-- BLOQUE 4 -->
+        <div class="bloque">
+            <h2>Contacto</h2>
+            <img src="img/mmmgatete.jpg" alt="Imagen de contacto">
+            <h3>acastroc2@uft.edu</h3>
+            <h4>@missupyon</h4>
+        </div>
+
+</div>
+
+        <a href="index.html" class="boton">Volver</a>
+
+        </div>
+</body>
+</html>
+
+
+
 ```
 
 CÓDIGO GEMINI
@@ -341,97 +515,6 @@ código entregado por gemini
 </body>
 </html>
 
-CODIGO INDEX ANTIGUO
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
-<title>Multimedial</title>
-
-
-    <style>
-        /* Estilo general del cuerpo */
-        body {
-            background-image: url(img/fondo.jpg);
-            font-family: Arial, sans-serif;
-            margin: 0;
-            display: flex; /* Activa flexbox */
-            justify-content: center; /* Centra horizontalmente */
-            align-items: center; /* Centra verticalmente */
-            height: 100vh; /* Altura total de la pantalla (viewport height) */
-        }
-
-        /* Contenedor principal */
-        .contenedor {
-            width: 20%;
-            margin: auto;
-        }
-
-        /* Sección o bloque */
-        .bloque {
-            background-color: rgba(255, 255, 255, 0.474);
-            margin: 20px 0;
-            padding: 50px;
-            width: 300px;
-            justify-content: center; /* Centra horizontalmente */
-            align-items: center; /* Centra verticalmente */
-            transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
-            
-        }
-
-        .bloque:hover{
-        background-color: white;
-        padding: 70px;
-
-        }
-
-
-        /* Sección o bloque */
-        .bloque h2{
-           margin-top: 10px;
-        }
-
-        nav a {
-            margin-left: 20px;
-            text-decoration: none;
-            color:black;
-            font-size: 20px;
-            transition: 0.3s;
-
-        }
-
-        nav a:hover {
-            font-size: 30px;
-        }
-
-</style>
-<!-- Fin de la sección de estilos -->
-
-
-
-</head>
-<!-- Fin de la sección head -->
-
-<body>
-    <div class="contenedor">
-        <div class="bloque">
-            <h1>Antonia Castro</h1>
-<nav>
-<a href="obras.html">Obras</a><br>
-<a href="contacto.html">Contacto</a>
-</nav>
-        </div>
-    </div>
-</body>
-<!-- Fin del contenido visible -->
-
-</html>
-<!-- Fin del documento HTML →
-
-
-
 CÓDIGO GEMINI
 
 necesito ordenar imágenes en la página web, donde esten en un grupo de 4 del mismo tamaño y que cuando el mouse pase por encima de las imágenes se pueda apreciar el nombre y año de la obra
@@ -510,87 +593,6 @@ necesito ordenar imágenes en la página web, donde esten en un grupo de 4 del m
 </body>
 </html>
 
-CÓDIGO ANTIGUO CONTACTO
-
-quiero editar esta pagina <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Obras</title>
-
-    <style>
-        /* Estilo general del cuerpo */
-        body {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-color: #fff2cd;
-            margin: 0;
-        }
-
-        /* Contenedor principal */
-        .contenedor {
-            width: 60%;
-            margin: auto;
-        }
-
-        /* Sección o bloque */
-        .bloque {
-            background-color: white;
-            margin: 20px 0;
-            padding: 50px;
-            border-radius: 10px;
-        }
-
-        /* Imagen */
-        .bloque img {
-            width: 30%;
-            height: auto;
-        }
-
-        /* Encabezado */
-        .bloque h2 {
-            margin-top: 20px;
-        }
-
-        /* Texto */
-        .bloque p {
-            line-height: 1.5;
-        }
-
-        .boton { /* Define una clase llamada "boton" */
-         background-color: rgb(104, 8, 24); /* Color de fondo del botón */
-         color: white; /* Color del texto */
-         padding: 15px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
-         width: 150px; /* Ancho fijo del botón */
-         text-align: center; /* Centra el texto horizontalmente */
-         transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
-        }
-
-        .boton:hover { /* Se activa cuando el mouse pasa sobre el elemento */
-         background-color: rgb(170, 85, 85); /* Cambia el color de fondo al pasar el mouse */
-        }
-
-
-        
-    </style>
-</head>
-
-<body>
-
-<!-- BLOQUE 4 -->
-        <div class="bloque">
-            <h2>Contacto</h2>
-            <img src="img/mmmgatete.jpg" alt="Imagen de contacto">
-            <h3>acastroc2@uft.edu</h3>
-            <h4>@missupyon</h4>
-        </div>
-
-</div>
-
-        <a href="index.html" class="boton">Volver</a>
-
-        </div>
-</body>
-</html>
 
 CÓDIGO NUEVO CONTACTO
 
