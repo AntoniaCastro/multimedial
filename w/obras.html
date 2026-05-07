@@ -20,6 +20,12 @@
             margin: 0 auto;
         }
 
+        .bloque-link {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        }
+
         /* Cada bloque de imagen */
         .bloque {
             position: relative; /* Necesario para posicionar el texto encima */
@@ -27,6 +33,7 @@
             overflow: hidden;
             background-color: #000;
             border-radius: 0px;
+            cursor: pointer;
         }
 
         /* Imagen que ocupa todo el bloque */
@@ -94,37 +101,47 @@
     <h1 style="text-align:center;">Obras</h1>
 
     <div class="contenedor-obras">
-        <div class="bloque">
-            <img src="img/alucinaciondeconsuelo.jpg" alt="Alucinación de consuelo">
-            <div class="overlay">
-                <h3>Alucinación de Consuelo</h3>
-                <p>2025 - Impresiones sobre papel</p>
+        
+        <a href="alucionacion.html" class="bloque-link">
+            <div class="bloque">
+                <img src="img/alucinaciondeconsuelo.jpg" alt="Alucinación de consuelo">
+                <div class="overlay">
+                    <h3>Alucinación de Consuelo</h3>
+                    <p>2025 - Impresiones sobre papel</p>
+                </div>
             </div>
-        </div>
+        </a>
 
-        <div class="bloque">
-            <img src="img/amalgama.jpg" alt="Amalgama">
-            <div class="overlay">
-                <h3>Amalgama</h3>
-                <p>2025 - Técnica mixta</p>
+        <a href="amalgama.html" class="bloque-link">
+            <div class="bloque">
+                <img src="img/amalgama.jpg" alt="Amalgama">
+                <div class="overlay">
+                    <h3>Amalgama</h3>
+                    <p>2025 - Técnica mixta</p>
+                </div>
             </div>
-        </div>
+        </a>
 
-        <div class="bloque">
-            <img src="img/ornamentacionquiensabe.jpg" alt="Ornamentación">
-            <div class="overlay">
-                <h3>Ornamentación</h3>
-                <p>2026 - Impresiones sobre papel</p>
+        <a href="ornamentacion.html" class="bloque-link">
+            <div class="bloque">
+                <img src="img/ornamentacionquiensabe.jpg" alt="Ornamentación">
+                <div class="overlay">
+                    <h3>Ornamentación</h3>
+                    <p>2026 - Impresiones sobre papel</p>
+                </div>
             </div>
-        </div>
+        </a>
 
-        <div class="bloque">
-            <img src="img/seripoliptico.jpg" alt="Serigrafía">
-            <div class="overlay">
-                <h3>Serigrafía</h3>
-                <p>2025 - Serigrafía sobre papel</p>
+        <a href="serigrafia.html" class="bloque-link">
+            <div class="bloque">
+                <img src="img/seripoliptico.jpg" alt="Serigrafía">
+                <div class="overlay">
+                    <h3>Serigrafía</h3>
+                    <p>2025 - Serigrafía sobre papel</p>
+                </div>
             </div>
-        </div>
+        </a>
+
     </div>
 
 </body>
