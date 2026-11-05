@@ -19,7 +19,7 @@ Semana 1 Ejercicio 1
 ## Unidad I.  Hipervicunlo ><><><
 #### 1. Mi primera página:
 
-```
+```html
 <!DOCTYPE html>
 <!-- Indica al navegador que este documento usa HTML5 -->
 
