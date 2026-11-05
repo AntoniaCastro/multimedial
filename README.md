@@ -7,9 +7,10 @@ Semana 1 Ejercicio 1
 ### index
 ## Unidad I.  [Hipervícunlo](#unidad-i--hipervicunlo-) <br> 
 1. [Mi Primera página.](#mi-primera-página) <br> 
-2. [Enlaces -  Links](#2-enlaces-links) <br> 
-3. [Mini sitio / 3 páginas conectadas](#3-mini-sitio-3-páginas-conectadas) <br> 
-4. [css-intermedio-interacción-y-layout](#4-css-intermedio-interacción-y-layout) <br>
+2. [Declaración de IA](#DECLARACION-DE-IA) <br> 
+3. [Codigo Gemini](#CÓDIGO-GEMINI) <br> 
+
+Resultados pagina web
 
 ## Unidad II. [Programación visual creativa basada en nodos](#programación-visual-creativa-basada-en-nodos) <br>
 1. [Intro ToucDesigner](#1-intro-a-touchdesigner) <br>
