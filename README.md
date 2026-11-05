@@ -1,3 +1,5 @@
+<img src="https://giphy.com/gifs/m6kEKJJClMTmANYcib/giphy.gif" width="auto" height="auto" />
+
 # MIXMEDIA
 ## Taller Multimedial
 Semana 1 Ejercicio 1
