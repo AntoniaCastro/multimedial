@@ -8,19 +8,19 @@ Semana 1 Ejercicio 1
 ## Exploración creativa de arte, tecnología y medios digitales interactivos.
 
 ### Indice
-## Unidad I.  [Hipervícunlo](#unidad-i--hipervicunlo-) <br> 
-1. [Mi Primera página.](#mi-primera-página) <br> 
-2. [Declaración de IA](#DECLARACION-DE-IA) <br> 
-3. [Codigo Gemini](#CÓDIGO-GEMINI) <br> 
+## Unidad I. [Hipervínculo](#unidad-i-hipervínculo) <br>
+1. [Mi primera página](#mi-primera-página) <br>
+2. [Declaración de IA](#declaracion-de-ia) <br>
+3. [Código Gemini](#código-gemini) <br>
 
 Resultados pagina web
 
 ## Unidad II. [Programación visual creativa basada en nodos](#programación-visual-creativa-basada-en-nodos) <br>
-1. [Intro ToucDesigner](#1-intro-a-touchdesigner) <br>
-2. [Ejercicios:](#2-canasta-de-ejercicios) <br>
+1. [Intro a TouchDesigner](#1-intro-a-touchdesigner) <br>
+2. [Ejercicios](#2-canasta-de-ejercicios) <br>
 ##### Nube de puntos con Pop basada en imágenes, Lsystem, Mapping básic
 
-## Unidad I.  Hipervicunlo ><><><
+## Unidad I.  Hipervicunlo 
 #### Mi primera página:
 
 ```html
@@ -738,4 +738,9 @@ CÓDIGO NUEVO CONTACTO
 ## Unidad II. [Programación visual creativa basada en nodos](#programación-visual-creativa-basada-en-nodos) <br>
 1. [Intro ToucDesigner](#1-intro-a-touchdesigner) <br>
 2. [Ejercicios:](#2-canasta-de-ejercicios) <br>
+
+### 1. Intro a TouchDesigner
+
+### 2. Canasta de ejercicios
+
 ##### Nube de puntos con Pop basada en imágenes, Lsystem, Mapping básico
