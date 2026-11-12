@@ -20,7 +20,7 @@ Resultados pagina web
 ##### Nube de puntos con Pop basada en imágenes, Lsystem, Mapping básic
 
 ## Unidad I.  Hipervicunlo ><><><
-#### 1. Mi primera página:
+#### Mi primera página:
 
 ```html
 <!DOCTYPE html>
