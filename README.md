@@ -740,5 +740,17 @@ CÓDIGO NUEVO CONTACTO
 ### 1. Intro a TouchDesigner
 
 ### 2. Canasta de ejercicios
+## Mapping https://drive.google.com/drive/folders/1GOV8eMCOGHqMgtgjodq-mhxTXEQfqQrD?usp=sharing
 
+<img src="https://media.giphy.com/media/8phdJ0eRoz05YN4rAj/giphy.gif"
+     style="width:auto; height:auto; display:block;">
 
+## Lsystem https://drive.google.com/drive/folders/1JNX8pCBRWL8rcXc2ux3bIXEpR5c1K9A9?usp=sharing
+
+<img src="https://media.giphy.com/media/MJNeCnWe14NHmN0ZwI/giphy.gif"
+     style="width:auto; height:auto; display:block;">
+
+## Comfy IA https://drive.google.com/drive/folders/13gfGtOO-pPVEsZRDU6yVYhF3163a2nvB?usp=drive_link
+
+<img src="img/COMFYIA.png"
+     style="width:auto; height:auto; display:block;">
