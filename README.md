@@ -1,4 +1,5 @@
-<img src="https://media.giphy.com/media/m6kEKJJClMTmANYcib/giphy.gif" width="auto" height="auto" />
+<img src="https://media.giphy.com/media/m6kEKJJClMTmANYcib/giphy.gif"
+     style="width:100%; height:auto; display:block;">
 
 # MIXMEDIA
 ## Taller Multimedial
