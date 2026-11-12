@@ -93,7 +93,7 @@ MIXMEDIA
 <!-- Fin del documento HTML -->
 ```
 
-DECLARACION DE IA
+## DECLARACION DE IA
 ```
 
 CÓDIGO OBRAS.HTML ANTIGUO
@@ -395,7 +395,7 @@ quiero editar esta pagina <!DOCTYPE html>
 
 ```
 
-CÓDIGO GEMINI
+## CÓDIGO GEMINI
 
 ```
 necesito ordenar imágenes en la pagina web, donde esten en un grupo de 4 del mismo tamaño y que cuando el mouse pase por encima de las imágenes se pueda apreciar el nombre y año de la obra
