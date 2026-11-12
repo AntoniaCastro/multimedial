@@ -736,11 +736,9 @@ CÓDIGO NUEVO CONTACTO
 }
 ```
 ## Unidad II. [Programación visual creativa basada en nodos](#programación-visual-creativa-basada-en-nodos) <br>
-1. [Intro ToucDesigner](#1-intro-a-touchdesigner) <br>
-2. [Ejercicios:](#2-canasta-de-ejercicios) <br>
 
 ### 1. Intro a TouchDesigner
 
 ### 2. Canasta de ejercicios
 
-##### Nube de puntos con Pop basada en imágenes, Lsystem, Mapping básico
+
