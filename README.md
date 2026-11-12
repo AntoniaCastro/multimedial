@@ -6,7 +6,7 @@ Semana 1 Ejercicio 1
 
 ## Exploración creativa de arte, tecnología y medios digitales interactivos.
 
-### index
+### Indice
 ## Unidad I.  [Hipervícunlo](#unidad-i--hipervicunlo-) <br> 
 1. [Mi Primera página.](#mi-primera-página) <br> 
 2. [Declaración de IA](#DECLARACION-DE-IA) <br> 
