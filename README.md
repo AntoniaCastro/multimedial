@@ -18,7 +18,8 @@ Resultados pagina web
 ## Unidad II. [Programación visual creativa basada en nodos](#programación-visual-creativa-basada-en-nodos) <br>
 1. [Intro a TouchDesigner](#1-intro-a-touchdesigner) <br>
 2. [Ejercicios](#2-canasta-de-ejercicios) <br>
-##### Nube de puntos con Pop basada en imágenes, Lsystem, Mapping básic
+3. [Experimentación](#3-experimentacion) <br>
+##### Nube de puntos con Pop basada en imágenes, Lsystem, Mapping básico
 
 ## Unidad I.  Hipervicunlo 
 #### Mi primera página:
@@ -735,22 +736,70 @@ CÓDIGO NUEVO CONTACTO
     margin: 5px 0;
 }
 ```
-## Unidad II. [Programación visual creativa basada en nodos](#programación-visual-creativa-basada-en-nodos) <br>
+## Unidad II. Programación visual creativa basada en nodos
 
 ### 1. Intro a TouchDesigner
 
+**Objetivos:**
+- Entender qué es TouchDesigner y sus aplicaciones
+- Conocer la interfaz y navegación básica
+- Crear el primer proyecto.
+
+**Contenidos:**
+- ¿Qué es TouchDesigner? Historia y usos profesionales:
+> Es un lenguaje de programación visual basado en nodos para contenido multimedia interactivo en tiempo real . Desarrollado por la empresa  ["Derivative"](https://derivative.ca) de Toronto, es utilizado frecuentemente por artistas, programadores, codificadores creativos, diseñadores de software y artistas para crear performances, instalaciones y obras multimedia fijas. [1](https://en.wikipedia.org/wiki/TouchDesigner)
+
+- Instalación y configuración inicial.
+- Tour por la interfaz: Network Editor, Palette, Parameters.
+- Conceptos: Operators (OPs), familias de operadores.
+- Navegación: zoom, pan, conexiones
+- Proyecto práctico.
+
 ### 2. Canasta de ejercicios
-## Mapping https://drive.google.com/drive/folders/1GOV8eMCOGHqMgtgjodq-mhxTXEQfqQrD?usp=sharing
+## Mapping  [Ver archivos](https://drive.google.com/drive/folders/1GOV8eMCOGHqMgtgjodq-mhxTXEQfqQrD?usp=sharing)
 
 <img src="https://media.giphy.com/media/8phdJ0eRoz05YN4rAj/giphy.gif"
      style="width:auto; height:auto; display:block;">
 
-## Lsystem https://drive.google.com/drive/folders/1JNX8pCBRWL8rcXc2ux3bIXEpR5c1K9A9?usp=sharing
+## Lsystem  [Ver archivos](https://drive.google.com/drive/folders/1JNX8pCBRWL8rcXc2ux3bIXEpR5c1K9A9?usp=sharing)
 
 <img src="https://media.giphy.com/media/MJNeCnWe14NHmN0ZwI/giphy.gif"
      style="width:auto; height:auto; display:block;">
 
-## Comfy IA https://drive.google.com/drive/folders/13gfGtOO-pPVEsZRDU6yVYhF3163a2nvB?usp=drive_link
+## Comfy IA  [Ver archivos](https://drive.google.com/drive/folders/13gfGtOO-pPVEsZRDU6yVYhF3163a2nvB?usp=drive_link)
 
 <img src="img/COMFYIA.png"
      style="width:auto; height:auto; display:block;">
+
+### 3. Experimentación
+
+**Resumen de la obra:**
+
+>Mutaciones es una obra que consiste en una proyección de mapping sobre recortes de cartón pluma dispuestos en una pared. Las visuales proyectadas consisten en una amalgama de texturas en blanco y negro que se encuentran en constante movimiento y presentan una semejanza a una trama textil abstracta. Cada recorte de cartón pluma posee una forma orgánica con lados irregulares, similar a un fragmento de un recorte de papel. Mediante la proyección, las texturas cambian y se transforman, generando distintas lecturas visuales sobre los fragmentos. La obra traslada tramas textiles a un formato audiovisual donde estas pueden ser percibidas desde la abstracción y movimiento constante.
+
+**Propuesta conceptual**
+
+>Mutación es una obra basada en mi interés por explorar la transformación de una imagen textil mediante distintos procedimientos y traspasos mediales. En mi trabajo, una misma imagen pasa por diferentes procesos modifican la apariencia  de las formas que contiene y las lecturas que estas pueden generar. A partir de esta investigación, me interesa trasladar estas operaciones al formato audiovisual, incorporando el movimiento como una manera de continuar explorando las posibilidades de transformación de la imagen.
+
+>Por medio de distintos efectos en Touchdesigner, desarrolle una visual que está en constante movimiento, compuesta por formas abstractas que buscan representar tramas textiles similares a las que aparecen en mi trabajo. El movimiento permite generar variaciones continuas en la imagen, modificando la disposición de las formas y sus relaciones entre sí.
+
+<img src="img/fragementos.jpg"
+     style="width:auto; height:auto; display:block;">
+
+<div style="text-align: center;">
+  Figura 1 Antonia Castro (2026). Sin título [Impresiones pegadas sobre cartón pluma]. Fuente: Propia
+</div>
+
+>Los fragmentos de cartón pluma dispuestos en la pared establecen una relación con mi trabajo Taller de Grado. En la etapa actual de este proceso **(figura 1)** estoy distribuyendo recortes de impresiones en la sala expositiva, procurando que su distribución sea dinámica y evitando que no se creen filas rectas en la composición. Esta organización genera un recorrido visual en el que la dirección y ubicación de cada fragmento influyen en la lectura de la obra. 
+
+>Mediante esta propuesta, buscó ampliar las posibilidades de lectura de la imagen a través de su transformación por medio de una proyección audiovisual. Relacionando el movimiento de las formas proyectadas con la disposición dinámica de los fragmentos.
+
+**Boceto de montaje**
+
+<img src="img/bocetomontaje.png"
+     style="width:auto; height:auto; display:block;">
+
+**Ficha técnica**
+1 Proyector, video digital, h264 o h265 1080p.
+cartón pluma, masking tape
+    
