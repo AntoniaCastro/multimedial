@@ -13,8 +13,6 @@ Semana 1 Ejercicio 1
 2. [Declaración de IA](#declaracion-de-ia) <br>
 3. [Código Gemini](#código-gemini) <br>
 
-Resultados pagina web
-
 ## Unidad II. [Programación visual creativa basada en nodos](#programación-visual-creativa-basada-en-nodos) <br>
 1. [Intro a TouchDesigner](#1-intro-a-touchdesigner) <br>
 2. [Ejercicios](#2-canasta-de-ejercicios) <br>
@@ -22,7 +20,7 @@ Resultados pagina web
 ##### Nube de puntos con Pop basada en imágenes, Lsystem, Mapping básico
 
 ## Unidad I.  Hipervicunlo 
-#### Mi primera página:
+#### Mi primera página: [Link](https://antoniacastro.github.io/multimedial/w/index.html)
 
 ```html
 <!DOCTYPE html>
