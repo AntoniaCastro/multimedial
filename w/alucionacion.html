@@ -2,5 +2,115 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Alucinación de consuelo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alucinación de Consuelo</title>
     <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            color: #2a2a2a;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Fila superior: botón Volver y título de la obra */
+        .encabezado {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            max-width: 1200px;
+            margin: 0 auto 30px;
+        }
+
+        .boton {
+            display: inline-block;
+            background-color: #000000;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 13px;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        .boton:hover {
+            background-color: #9b9b9b;
+            transform: scale(1.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: normal;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+        }
+
+        /* La obra en grande */
+        .obra {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .obra img {
+            max-width: 100%;
+            max-height: 80vh;      /* nunca más alta que la pantalla */
+            object-fit: contain;   /* se ve completa, sin recortes */
+        }
+
+        /* Datos de la obra */
+        .datos {
+            margin-top: 20px;
+            font-size: 12px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            line-height: 2;
+        }
+
+        /* Anterior y Siguiente */
+        .navegacion {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 40px auto 0;
+        }
+
+        .navegacion a {
+            text-decoration: none;
+            color: #2a2a2a;
+            font-size: 13px;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            transition: transform 0.3s ease;
+        }
+
+        .navegacion a:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="encabezado">
+        <a href="obras.html" class="boton">Volver</a>
+        <h1>Alucinación de Consuelo</h1>
+    </div>
+
+    <div class="obra">
+        <img src="img/alucinaciondeconsuelo.jpg" alt="Alucinación de Consuelo">
+        <div class="datos">
+            2025<br>
+            Impresiones sobre papel
+            <!-- Si quieres agregar más datos, escribe otra línea aquí, por ejemplo: <br>Medidas: 50 x 70 cm -->
+        </div>
+    </div>
+
+    <div class="navegacion">
+        <span></span>
+        <a href="amalgama.html">Siguiente</a>
+    </div>
+
+</body>
+</html>

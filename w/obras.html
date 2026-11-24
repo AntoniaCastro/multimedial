@@ -5,10 +5,19 @@
     <title>Obras</title>
     <style>
         body {
-            background-color: brown;
+            background-color: rgb(255, 255, 255);
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
+        }
+
+        /* Fila superior: botón Volver y título Obras, uno al lado del otro */
+        .encabezado {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            max-width: 1200px;
+            margin: 0 auto 30px;
         }
 
         /* Contenedor principal: Grid de 4 columnas */
@@ -74,31 +83,53 @@
             opacity: 1; /* Muestra el texto */
         }
 
-        .overlay h3 { margin: 0; font-size: 1.2rem; }
-        .overlay p { margin: 5px 0 0; font-size: 0.9rem; }
+       .overlay h3,
+       .overlay p {
+          margin: 0;
+          font-size: 10px;
+          font-weight: normal;
+          letter-spacing: 0.25em;
+          text-transform: uppercase;
+          line-height: 1.6;
+}
+.overlay p {
+    margin-top: 10px;
+}
 
         /* Botón Volver */
         .boton {
             display: inline-block;
-            background-color: rgb(104, 8, 24);
+            background-color: #000000;
             color: white;
             padding: 15px 25px;
             text-decoration: none;
-            margin-bottom: 20px;
             transition: 0.3s;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
         }
 
         .boton:hover {
-            background-color: rgb(170, 85, 85);
+            background-color: #9b9b9b;
+            transform: scale(1.1);
         }
 
-        h1 { color: white; margin-bottom: 30px; }
+        /* Título: ahora en color oscuro, porque en blanco no se veía sobre el fondo blanco */
+        h1 { 
+            color: #000000;
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+        
+        }
     </style>
 </head>
 <body>
 
-    <a href="index.html" class="boton">Volver</a>
-    <h1 style="text-align:center;">Obras</h1>
+    <div class="encabezado">
+        <a href="index.html" class="boton">Volver</a>
+        <h1>Obras</h1>
+    </div>
 
     <div class="contenedor-obras">
         
@@ -124,9 +155,9 @@
 
         <a href="ornamentacion.html" class="bloque-link">
             <div class="bloque">
-                <img src="img/ornamentacionquiensabe.jpg" alt="Ornamentación">
+                <img src="img/ornamentacionquiensabe.jpg" alt="Sin título">
                 <div class="overlay">
-                    <h3>Ornamentación</h3>
+                    <h3>Sin título</h3>
                     <p>2026 - Impresiones sobre papel</p>
                 </div>
             </div>
@@ -134,10 +165,30 @@
 
         <a href="serigrafia.html" class="bloque-link">
             <div class="bloque">
-                <img src="img/seripoliptico.jpg" alt="Serigrafía">
+                <img src="img/seripoliptico.jpg" alt="Sin título">
                 <div class="overlay">
-                    <h3>Serigrafía</h3>
+                    <h3>Sin título</h3>
                     <p>2025 - Serigrafía sobre papel</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="continuo.html" class="bloque-link">
+            <div class="bloque">
+                <img src="img/imagenfondo.jpg" alt="Sin título">
+                <div class="overlay">
+                    <h3>Sin título</h3>
+                    <p>2026 - Xilografías sobre papel</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="serigrafia.html" class="bloque-link">
+            <div class="bloque">
+                <img src="img/Fragmentos.jpg" alt="Sin título">
+                <div class="overlay">
+                    <h3>Sin título</h3>
+                    <p>2026 - Impresiones adheridas a cartón pluma</p>
                 </div>
             </div>
         </a>
