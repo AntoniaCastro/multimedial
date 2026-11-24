@@ -802,4 +802,11 @@ CÓDIGO NUEVO CONTACTO
 **Ficha técnica**
 1 Proyector, video digital, h264 o h265 1080p.
 cartón pluma, masking tape
-    
+
+**Proceso**
+
+<img src="https://media.giphy.com/media/o9DEyNb2fnRJi7etk7/giphy.gif"
+     style="width:auto; height:auto; display:block;">
+
+<img src="https://media.giphy.com/media/0GdC0gtpHZoghKrzKC/giphy.gif"
+     style="width:auto; height:auto; display:block;">
